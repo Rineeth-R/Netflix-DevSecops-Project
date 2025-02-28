@@ -12,7 +12,8 @@ and set up monitoring with Prometheus and Grafana. Automated containerized deplo
 
 **Key Responsibilities & Technologies Used**
 
-**1. Cloud Infrastructure Setup & Deployment (AWS & Docker)**
+**1. Cloud Infrastructure Setup & Deployment (AWS & Docker)** 
+
 Provisioned AWS EC2 instance (Ubuntu 22.04) for hosting the application.
 Installed and configured Docker for containerized deployment.
 Built and deployed the application as a Docker container:
@@ -27,6 +28,7 @@ Used Trivy for container image scanning to identify vulnerabilities.
 Implemented SonarQube Quality Gate in Jenkins pipeline to enforce security standards.
 
 **3. CI/CD Pipeline Automation (Jenkins)**
+
 Installed Jenkins on the AWS EC2 instance.
 Configured a Jenkins declarative pipeline for automating build, security scans, and deployment.
 Integrated Docker plugins, Node.js, and Java (JDK 17) in Jenkins for seamless execution.
@@ -34,21 +36,25 @@ Implemented DockerHub authentication in Jenkins to push Docker images securely.
 Configured Jenkins to trigger builds automatically on code commits.
 
 **4. Monitoring & Logging (Prometheus & Grafana)**
+
 Installed and configured Prometheus to monitor application performance.
 Deployed Node Exporter for collecting system metrics.
 Integrated Grafana to visualize logs and metrics from Prometheus.
 Configured Prometheus monitoring for Jenkins CI/CD pipeline performance tracking.
 
 **5. Kubernetes Deployment & Scaling**
+
 Created a Kubernetes cluster with node groups for auto-scaling.
 Deployed application containers in Kubernetes Pods for high availability.
 Configured Helm to install Prometheus and monitor Kubernetes nodes.
 
 **6. Notification & Alerts**
+
 Set up email notifications in Jenkins for build failures.
 Configured Prometheus AlertManager to notify on system anomalies.
 
 **Key Achievements**
+
 ✅ Successfully deployed a Netflix Clone on AWS with an automated CI/CD pipeline.
 
 ✅ Implemented shift-left security by integrating SonarQube, Trivy, and OWASP Dependency-Check.
