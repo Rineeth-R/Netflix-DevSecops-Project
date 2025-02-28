@@ -69,12 +69,19 @@ Configured Prometheus AlertManager to notify on system anomalies.
 
 
 **Technical Stack & Tools**
-**Cloud Platforms:** AWS (EC2, S3, IAM)
+
+**Cloud Platforms:** AWS
+
 **CI/CD:** Jenkins, Git, GitHub Webhooks
+
 **Containerization:** Docker, DockerHub, Kubernetes, Helm
+
 **Security Tools:** SonarQube, OWASP Dependency-Check, Trivy
+
 **Monitoring & Logging:** Prometheus, Grafana, Node Exporter
+
 **Programming & Scripting:** Shell Scripting, JavaScript, Node.js
+
 **Database & APIs:** TMDB API
 
 **Jenkins passed :-**
