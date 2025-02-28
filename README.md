@@ -1,4 +1,5 @@
 **DevSecOps Project - Netflix Clone on cloud using Jenkins**
+
 ![arch](https://github.com/user-attachments/assets/4b10cd85-7914-4c6a-89a3-0e801a129210)
 
 
