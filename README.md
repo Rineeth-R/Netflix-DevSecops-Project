@@ -6,8 +6,11 @@
 **Project Overview:**
 
 Developed and deployed a Netflix-like streaming application on AWS using DevSecOps best practices. 
+
 Implemented a CI/CD pipeline with Jenkins, 
+
 integrated security tools (SonarQube, Trivy, OWASP Dependency-Check),
+
 and set up monitoring with Prometheus and Grafana. Automated containerized deployments using Docker and Kubernetes.
 
 **Key Responsibilities & Technologies Used**
